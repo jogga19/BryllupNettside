@@ -1,5 +1,6 @@
 # simple-static-website-template
 A template for getting started with personal, static websites.
+Template was found at [simple-static-website-template](https://github.com/edavis0/simple-static-website-template)
 
 ## Overview
 This repo provides a beginner-level starting place for users to create their own static websites. It's inspired by and built using [Derek Siver's simple website template](https://sive.rs/ti#web1). Feel free to clone it and build your own static website, and if you found this helpful, take a second to **star ✩ this repo**!
