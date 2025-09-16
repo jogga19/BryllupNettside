@@ -1,0 +1,52 @@
+/* CSS Notes
+1. Body:
+  max-width: 40em;
+    This sets the maximum width of the body element to 40em.
+    An em is a scalable unit that is used in web document media.
+    An em is equal to the current font-size, for instance, if the font-size of the document is 12pt, 1em is equal to 12pt.
+  margin: 0 auto;
+    This rule centers the body element horizontally within its containing element.
+    The '0' removes any top and bottom margins, while 'auto' evenly distributes the left and right margins.
+  padding: 5px;
+    This sets the padding space required between the content of the element and its border to 5 pixels on all four sides.
+  font-family: sans-serif;
+    This rule sets the font of the text within the body to be any 'sans-serif' font.
+  font-weight: lighter;
+    This sets the thickness of the font within the body to 'lighter'.
+    This usually corresponds to a font weight of 300.
+  font-size: 18px;
+    This sets the size of the font within the body to be 18 pixels.
+  line-height: 1.6em;
+    This sets the distance between lines to be 1.6 times the size of the current font size.
+  color: black;
+    This sets the color of the text within the body to be black.
+  background-color: white;
+    This sets the background color of the body to be white.
+2. h1, h2, h3, h4:
+  font-family: sans-serif;
+    This rule sets the font of the text within the h1, h2, h3, and h4 elements to be any 'sans-serif' font.
+  font-weight: normal;
+    This sets the thickness of the font within the h1, h2, h3, and h4 elements to 'normal'.
+  background-color: white;
+    This sets the background color of the h1, h2, h3, and h4 elements to be white.
+  
+  Note that the body's styles apply to all elements within the body, 
+  but specific styles declared for h1, h2, h3, and h4 will override the corresponding styles in the body for these elements.
+*/
+
+body {
+    max-width: 40em;
+    margin: 0 auto;
+    padding: 5px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 1.6em;
+    color: black;
+    background-color: white;
+  }
+  h1, h2, h3, h4 {
+    font-family: sans-serif;
+    font-weight: normal;
+    background-color: white;
+  }
