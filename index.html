@@ -23,7 +23,7 @@
     CONTENT
     </p> -->
     <script>
-    fetch('../text-files/hjemmeside.txt')
+    fetch('./text-files/hjemmeside.txt')
       .then(response => response.text())
       .then(data => {
         document.getElementById('hjemmesideTekst').textContent = data;
