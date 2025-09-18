@@ -18,11 +18,16 @@
     <!-- Create an h2 header for the title of this home page -->
     <h2>Bryllup til Ragnhild og Jørgen</h2>
     <!-- Add content and use <p> tags for line breaks -->
-    <p>
+    <div id="hjemmesideTekst"></div>
+    <!-- <p>
     CONTENT
-    </p>
-    <p>
-    CONTENT
-    </p>
+    </p> -->
+    <script>
+    fetch('../text-files/hjemmeside.txt')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('hjemmesideTekst').textContent = data;
+      });
+    </script>
   </body>
 </html>
