@@ -2,4 +2,4 @@
 
 Her er ønskelista vår.
 
-[Lenke til ønskeliste](https://www.onskelister.no/app/liste?id=DhiQaYhWTrVBajDbumuM)
+[Lenke til ønskeliste](https://onskelister.no/liste?id=DhiQaYhWTrVBajDbumuM)
