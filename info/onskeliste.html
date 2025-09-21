@@ -10,20 +10,20 @@
   </head>
   <body>
     <!-- Create an h1 header that is linked back to your homepage -->
-    <h1>Hjemside | <a href="./../index.html">Hjemside</a></h1>
+    <h1><a href="./../index.html">Hjemside</a></h1>
     <!-- Create an h4 header that is linked to your various subpages and links -->
     <hr>
     <!-- Create an h2 header for the title of this blog overview page -->
-    <h2>Ønskeliste</h2>
     <!-- Add content and use <ul> and <li> tags for bulleted lists <p> tags for line breaks -->
     <!-- This is a great place to link to your most recent blog posts -->
     <div id="onskelisteTekst"></div>
 
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script>
-    fetch('../text-files/onskeliste.txt')
+    fetch('../text-files/onskeliste.md')
       .then(response => response.text())
       .then(data => {
-        document.getElementById('onskelisteTekst').textContent = data;
+        document.getElementById('onskelisteTekst').innerHTML = marked.parse(data);
       });
     </script>
 </body>
