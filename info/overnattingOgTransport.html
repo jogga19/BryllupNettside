@@ -20,7 +20,7 @@
     <div id="overnattingOgTransportTekst"></div>
 
     <script>
-    fetch('./text-files/overnattingOgTransport.txt')
+    fetch('../text-files/overnattingOgTransport.txt')
       .then(response => response.text())
       .then(data => {
         document.getElementById('overnattingOgTransportTekst').textContent = data;
