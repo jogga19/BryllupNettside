@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
       <!-- Add your page name and sitename for the page's metadata -->
-      <title>Ønskeliste</title>
+      <title>Overnatting og transport</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Make sure to use the proper relative path to your CSS file! -->
     <link rel="stylesheet" href="./../style.css"> 
@@ -14,16 +14,16 @@
     <!-- Create an h4 header that is linked to your various subpages and links -->
     <hr>
     <!-- Create an h2 header for the title of this blog overview page -->
-    <h2>Ønskeliste</h2>
+    <h2>Overnatting og transport</h2>
     <!-- Add content and use <ul> and <li> tags for bulleted lists <p> tags for line breaks -->
     <!-- This is a great place to link to your most recent blog posts -->
-    <div id="onskelisteTekst"></div>
+    <div id="overnattingOgTransportTekst"></div>
 
     <script>
-    fetch('./text-files/onskeliste.txt')
+    fetch('./text-files/overnattingOgTransport.txt')
       .then(response => response.text())
       .then(data => {
-        document.getElementById('onskelisteTekst').textContent = data;
+        document.getElementById('overnattingOgTransportTekst').textContent = data;
       });
     </script>
 </body>
