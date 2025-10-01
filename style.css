@@ -34,6 +34,11 @@
   but specific styles declared for h1, h2, h3, and h4 will override the corresponding styles in the body for these elements.
 */
 
+:root {
+  --main-text-color: rgb(224, 17, 17);
+  --link-color: rgb(214, 47, 236);
+}
+
 body {
     max-width: 40em;
     margin: 0 auto;
@@ -42,11 +47,19 @@ body {
     font-weight: lighter;
     font-size: 18px;
     line-height: 1.6em;
-    color: black;
-    background-color: white;
-  }
-  h1, h2, h3, h4 {
-    font-family: sans-serif;
-    font-weight: normal;
-    background-color: white;
-  }
+    color: var(--main-text-color);
+    /* background-color: white; */
+    background-image: url('./image/ragnhild_og_jorgen.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1, h2, h3, h4 {
+  font-family: sans-serif;
+  font-weight: normal;
+  /* background-color: white; */
+}
+a {
+    color: var(--link-color);
+}
