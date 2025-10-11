@@ -1,14 +1,22 @@
-## Overnatting og Transport
-
-Her er info om overnatting og transport.
-
-Vi trenger info om hvor folk kan overnatte, og gjerne om hvordan man kommer seg til Tiller kirke og KVT.
-
-Info om parkering ved KVT.
+## Parkering ved KVT
+<div align="center">
+<img src="../images/Parkering_KVT.png" alt="Parkering ved KVT" width="90%">
+</div>
 
 ---
-## Parkering ved KVT
-<img src="../images/Parkering_KVT.png" alt="Parkering ved KVT" width="300">
+
+## Transport
+
+Busstopp i nærheten av Tiller kirke:
+  - Moltmyra Øst (nærmest)
+
+Busstopp i nærheten av KVT:
+  - Tonstadgrenda (fra Tiller kirke)
+  - City Syd (nærmest)
+
+---
+
+## Overnatting
 
 
 
